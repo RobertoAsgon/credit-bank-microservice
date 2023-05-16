@@ -1,0 +1,48 @@
+version: "3.3"
+
+services:
+  gateway:
+    build:
+      context: ./gatewayService/Gateway.API
+    ports:
+      - "8080:80"
+    depends_on:
+      - sql
+
+  credit:
+    build:
+      context: ./creditService/Credit.API
+    ports:
+      - "8090:80"
+    depends_on:
+      - sql
+      - rabbitmq
+
+  register:
+    build:
+      context: ./registerService/Register.API
+    ports:
+      - "8010:80"
+    depends_on:
+      - sql
+      - rabbitmq
+
+  sql:
+    image: mcr.microsoft.com/mssql/server:2019-latest 
+    environment:
+      - SA_PASSWORD=credit#2023
+      - ACCEPT_EULA=Y
+    ports:
+      - "1445:1433"
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    environment:
+      RABBITMQ_DEFAULT_USER: "rabbitmq"
+      RABBITMQ_DEFAULT_PASS: "rabbitmq"
+    ports:
+        - 5672:5672
+        - 15672:15672
+
+
+

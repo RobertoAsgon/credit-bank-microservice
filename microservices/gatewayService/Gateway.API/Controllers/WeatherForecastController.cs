@@ -8,7 +8,7 @@ namespace Gateway.API.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        "Gateway API", "Gateway API", "Gateway API", "Gateway API", "Gateway API", "Gateway API"
     };
 
         private readonly ILogger<WeatherForecastController> _logger;

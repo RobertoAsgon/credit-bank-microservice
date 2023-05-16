@@ -1,0 +1,12 @@
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Domain\bin\Debug\net5.0\Credit.Domain.deps.json
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Domain\bin\Debug\net5.0\Credit.Domain.dll
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Domain\bin\Debug\net5.0\Credit.Domain.pdb
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Domain\obj\Debug\net5.0\Credit.Domain.csproj.AssemblyReference.cache
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Domain\obj\Debug\net5.0\Credit.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Domain\obj\Debug\net5.0\Credit.Domain.AssemblyInfoInputs.cache
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Domain\obj\Debug\net5.0\Credit.Domain.AssemblyInfo.cs
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Domain\obj\Debug\net5.0\Credit.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Domain\obj\Debug\net5.0\Credit.Domain.dll
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Domain\obj\Debug\net5.0\refint\Credit.Domain.dll
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Domain\obj\Debug\net5.0\Credit.Domain.pdb
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Domain\obj\Debug\net5.0\ref\Credit.Domain.dll

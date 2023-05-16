@@ -1,0 +1,15 @@
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\bin\Debug\net5.0\Credit.Application.deps.json
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\bin\Debug\net5.0\Credit.Application.dll
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\bin\Debug\net5.0\Credit.Application.pdb
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\bin\Debug\net5.0\Credit.Domain.dll
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\bin\Debug\net5.0\Credit.Domain.pdb
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\obj\Debug\net5.0\Credit.Application.csproj.AssemblyReference.cache
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\obj\Debug\net5.0\Credit.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\obj\Debug\net5.0\Credit.Application.AssemblyInfoInputs.cache
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\obj\Debug\net5.0\Credit.Application.AssemblyInfo.cs
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\obj\Debug\net5.0\Credit.Application.csproj.CoreCompileInputs.cache
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\obj\Debug\net5.0\Credit.Application.csproj.CopyComplete
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\obj\Debug\net5.0\Credit.Application.dll
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\obj\Debug\net5.0\refint\Credit.Application.dll
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\obj\Debug\net5.0\Credit.Application.pdb
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.Application\obj\Debug\net5.0\ref\Credit.Application.dll

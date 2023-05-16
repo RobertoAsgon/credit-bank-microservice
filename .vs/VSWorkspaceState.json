@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\microservices",
+    "\\microservices\\creditService",
+    "\\microservices\\creditService\\Credit.API"
   ],
-  "SelectedNode": "\\diagram-credit-microservice.jpg",
+  "SelectedNode": "\\microservices\\creditService\\Credit.API\\Credit.API.csproj",
   "PreviewInSolutionExplorer": false
 }

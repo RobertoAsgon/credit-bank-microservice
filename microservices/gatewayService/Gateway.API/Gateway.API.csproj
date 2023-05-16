@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="ocelot.json.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="ocelot.json.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ocelot.Tracing.Butterfly" Version="16.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 

@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-microservice-dotnet\\Microservice\\Credit.Domain\\Credit.Domain.csproj": {}
+    "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-bank-microservice\\microservices\\creditService\\Credit.Domain\\Credit.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-microservice-dotnet\\Microservice\\Credit.Domain\\Credit.Domain.csproj": {
+    "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-bank-microservice\\microservices\\creditService\\Credit.Domain\\Credit.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-microservice-dotnet\\Microservice\\Credit.Domain\\Credit.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-bank-microservice\\microservices\\creditService\\Credit.Domain\\Credit.Domain.csproj",
         "projectName": "Credit.Domain",
-        "projectPath": "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-microservice-dotnet\\Microservice\\Credit.Domain\\Credit.Domain.csproj",
+        "projectPath": "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-bank-microservice\\microservices\\creditService\\Credit.Domain\\Credit.Domain.csproj",
         "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-microservice-dotnet\\Microservice\\Credit.Domain\\obj\\",
+        "outputPath": "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-bank-microservice\\microservices\\creditService\\Credit.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

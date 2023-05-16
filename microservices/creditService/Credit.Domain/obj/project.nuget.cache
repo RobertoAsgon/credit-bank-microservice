@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wjjf3QN2doK0fqwBWGP31hGHuykf4Sz+qKXtooW9d5LKMKZjOnF0/qI2mVOXXLzjbeUkUZrxcHV/y/prwMJ5sQ==",
+  "dgSpecHash": "FY5m1/Tl6vzVDjX6IZ44Ri2MHPYO8Z1OiLckE2I5N+0cLplH18LhU8iE2SPhGQFRfqEOgx27VK2N1MbZv+mBkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-microservice-dotnet\\Microservice\\Credit.Domain\\Credit.Domain.csproj",
+  "projectFilePath": "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-bank-microservice\\microservices\\creditService\\Credit.Domain\\Credit.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

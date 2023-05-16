@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "4+RNJyPVMg4KBvTAM29+CphcVvwUmzj6S1Zf2+RZK3zEzmMtoassJMF97N+3cIOMCo36r+d4kxfdjtrI7k4NCQ==",
+  "dgSpecHash": "jTbtzpMhRRkRLej7+BW/zsvo5aFSUm1JfOY1IEBAEC+U8RCS4OVcGdWywHtP8LFvp7lA9gdHn2QsxPxhDNFXCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-microservice-dotnet\\Microservice\\Credit.Application\\Credit.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\rober\\Documents\\DTI\\mentoria\\credit-bank-microservice\\microservices\\creditService\\Credit.Application\\Credit.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rober\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\rober\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
