@@ -1,15 +1,18 @@
 ﻿using Credit.Application.Repositories;
 using Credit.Domain.Entities;
 using Credit.Infrastructure.Data;
+using Credit.Infrastructure.RabbitMQ;
 
 namespace Credit.Infrastructure.Repositories
 {
     public class CreditRepository : ICreditRepository
     {
         private readonly AppDbContext _appDbContext;
-        public CreditRepository(AppDbContext appDbContext)
+        private readonly IRabitMQProducer _rabitMQProducer;
+        public CreditRepository(AppDbContext appDbContext, IRabitMQProducer rabitMQProducer)
         {
             _appDbContext = appDbContext;
+            _rabitMQProducer = rabitMQProducer;
         }
 
         public async Task RegistrarCredito(
@@ -46,6 +49,7 @@ namespace Credit.Infrastructure.Repositories
 
             _appDbContext.Parcela.AddRange(parcelas);
             _appDbContext.SaveChanges();
+            _rabitMQProducer.SendClientMessage(cliente);
         }
             
     }
