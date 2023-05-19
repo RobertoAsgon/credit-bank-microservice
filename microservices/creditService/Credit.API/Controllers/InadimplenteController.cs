@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Credit.API.Controllers
 {
-    [Route("api/")]
+    [Route("api/inadimplentes")]
     [ApiController]
     public class InadimplenteController : ControllerBase
     {

@@ -26,6 +26,21 @@ namespace Credit.Infrastructure.Repositories
         {
             var cliente = _appDbContext.Cliente.FirstOrDefault(c => c.CPF == clientCpf);
 
+            if(cliente == null)
+            {
+
+                var newCliente = new Cliente
+                {
+                    CPF = "12345678901",
+                    Nome = "João Zester",
+                    UF = "SP",
+                    Celular = "(11) 98765-4321"
+                };
+
+                _rabitMQProducer.SendClientMessage(newCliente);
+                throw new Exception("Cliente não cadastrado.");
+            }
+
             var financiamento = new Financiamento
             {
                 CPF = cliente.CPF,
@@ -49,7 +64,6 @@ namespace Credit.Infrastructure.Repositories
 
             _appDbContext.Parcela.AddRange(parcelas);
             _appDbContext.SaveChanges();
-            _rabitMQProducer.SendClientMessage(cliente);
         }
             
     }

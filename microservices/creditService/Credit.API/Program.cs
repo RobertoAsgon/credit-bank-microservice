@@ -8,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<ICreditRepository, CreditRepository>();
+builder.Services.AddScoped<IAdimplenteRepository, AdimplenteRepository>();
+builder.Services.AddScoped<IInadimplenteRepository, InadimplenteRepository>();
 builder.Services.AddScoped<ILiberarCreditoUseCase, LiberarCreditoUseCase>();
 builder.Services.AddScoped<IRabitMQProducer, RabitMQProducer>();
 

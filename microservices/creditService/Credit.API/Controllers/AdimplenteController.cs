@@ -2,11 +2,11 @@ using Credit.Application.Repositories;
 using Credit.Domain.Entities;
 using Credit.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace Credit.API.Controllers
 {
-    [Route("api/")]
+    [Route("api/adimplentes")]
     [ApiController]
     public class AdimplenteController : ControllerBase
     {
@@ -27,6 +27,8 @@ namespace Credit.API.Controllers
         [ActionName(nameof(GetAdimplentesSql))]
         public async Task<List<Cliente>> GetAdimplentesSql()
         {
+            var test = "Teste";
+            Debug.WriteLine("Test" + test);
             return await _adimplenteRepository.GetAdimplentesSql();
         }
 

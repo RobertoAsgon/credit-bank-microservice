@@ -51,7 +51,7 @@ namespace Credit.Infrastructure.Repositories
                         join p in _appDbContext.Parcela on f.ID equals p.IDFInanciamento
                         where f.CPF == c.CPF
                         group f by new { f.ID, f.CPF } into g
-                        where (decimal)g.Count() / _appDbContext.Parcela.Count(p => p.IDFInanciamento == g.Key.ID) > 0.9m
+                        where (decimal)g.Count() / _appDbContext.Parcela.Count(p => p.IDFInanciamento == g.Key.ID) > 0.6m
                         select g
                     ).Any()
                 select new Cliente

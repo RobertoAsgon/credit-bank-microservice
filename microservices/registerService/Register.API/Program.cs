@@ -6,10 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddScoped<IClienteService, ClienteService>();
 builder.Services.AddDbContext<DbContextClass>();
-builder.Services.AddScoped<RabbitMQConsumer>(provider =>
+builder.Services.AddHostedService<RabbitMQConsumer>(provider =>
 {
-    var dbContext = provider.GetRequiredService<DbContextClass>();
-    return new RabbitMQConsumer("cadastroCliente", "cadastro", "cliente", dbContext);
+    return new RabbitMQConsumer("cadastroCliente", "cliente");
 });
 
 builder.Services.AddControllers();

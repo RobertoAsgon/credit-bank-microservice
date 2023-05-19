@@ -73,3 +73,4 @@ C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\cre
 C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.API\bin\Debug\net6.0\Credit.Domain.pdb
 C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.API\bin\Debug\net6.0\Credit.Infrastructure.pdb
 C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\rober\Documents\DTI\mentoria\credit-bank-microservice\microservices\creditService\Credit.API\bin\Debug\net6.0\RabbitMQ.Client.dll

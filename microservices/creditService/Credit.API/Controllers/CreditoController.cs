@@ -1,7 +1,6 @@
 using Credit.Application.Repositories;
 using Credit.Application.Requests;
 using Credit.Application.Responses;
-using Credit.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Credit.API.Controllers
@@ -28,13 +27,35 @@ namespace Credit.API.Controllers
         {
             try
             {
+                var validator = new CreditoRequestValidator();
+                var validationResult = validator.Validate(request);
+
+                if (!validationResult.IsValid)
+                {
+                    List<string> errorList = new List<string>();
+
+                    foreach (var error in validationResult.Errors)
+                    {
+                        errorList.Add(error.ErrorMessage);
+                    }
+
+                    var errorResponse = new CreditoErrorResponse()
+                    {
+                        Aprovado = false,
+                        Errors = errorList,
+                    };
+
+                    return BadRequest(errorResponse);
+                }
+
+
                 var response = await _liberarCreditoUseCase.Execute(request);
 
                 return Ok(response);
             }
             catch (Exception e)
             {
-                return NotFound(e.Message);
+                return BadRequest(e.Message);
             }
         }
     }

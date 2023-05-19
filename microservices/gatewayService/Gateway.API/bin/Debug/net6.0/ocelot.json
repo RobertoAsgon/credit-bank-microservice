@@ -1,0 +1,137 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7206"
+  },
+  "Routes": [
+    // CREDIT SERVICE ROUTES
+    {
+      "UpstreamPathTemplate": "/gateway/liberarCredito",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/api/credito/liberarCredito",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7196
+        }
+      ],
+      "SwaggerKey": "credito"
+    },
+    // ADIMPLENTES
+    {
+      "UpstreamPathTemplate": "/gateway/obterAdimplentesDeSaoPauloSql",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/adimplentes/obterAdimplentesDeSaoPauloSql",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7196
+        }
+      ],
+      "SwaggerKey": "credito"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/obterAdimplentesDeSaoPauloSqlLinq",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/adimplentes/obterAdimplentesDeSaoPauloSqlLinq",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7196
+        }
+      ],
+      "SwaggerKey": "credito"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/obterAdimplentesDeSaoPauloLinqMethods",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/adimplentes/obterAdimplentesDeSaoPauloLinqMethods",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7196
+        }
+      ],
+      "SwaggerKey": "credito"
+    },
+    // INADIMPLENTES
+    {
+      "UpstreamPathTemplate": "/gateway/obterPrimeirosQuatroClientesInadimplentesSql",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/inadimplentes/obterPrimeirosQuatroClientesInadimplentesSql",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7196
+        }
+      ],
+      "SwaggerKey": "credito"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/obterPrimeirosQuatroClientesInadimplentesLinqSql",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/inadimplentes/obterPrimeirosQuatroClientesInadimplentesLinqSql",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7196
+        }
+      ],
+      "SwaggerKey": "credito"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/obterPrimeirosQuatroClientesInadimplentesLinqMethods",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/inadimplentes/obterPrimeirosQuatroClientesInadimplentesLinqMethods",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7196
+        }
+      ],
+      "SwaggerKey": "credito"
+    },
+    // REGISTER SERVICE ROUTES
+    {
+      "UpstreamPathTemplate": "/gateway/cadastrarNovoCliente",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/api/cadastro/cadastrarNovoCliente",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7007
+        }
+      ],
+      "SwaggerKey": "cadastro"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "credito",
+      "Config": [
+        {
+          "Name": "Credito API",
+          "Version": "v1",
+          "Url": "https://localhost:7196/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "cadastro",
+      "Config": [
+        {
+          "Name": "Cadastro API",
+          "Version": "v1",
+          "Url": "https://localhost:7007/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
